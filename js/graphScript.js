@@ -185,7 +185,7 @@ $(document).ready(function() {
 			// Changed the way we loop because of issues with $.each not resetting properly
 			if (i < bars.length) {
 				// Add transition property for automatic animation		
-				$(bars[i].bar).css({'height': bars[i].height, '-webkit-transition': 'all 0.8s ease-out'});
+				$(bars[i].bar).css({'height': bars[i].height, '-webkit-transition': 'all 1.8s ease-out'});
 				// Wait the specified time then run the displayGraph() function again for the next bar
 				barTimer = setTimeout(function() {
 					i++;				
