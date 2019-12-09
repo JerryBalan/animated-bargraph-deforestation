@@ -153,7 +153,7 @@ a {
 	height: 20px;
 	margin: 62px 15px 0 15px;
 	padding: 5px 0;
-	width: 150px;
+	width: 70px;
 }
 
 .y-axis {
@@ -205,7 +205,7 @@ a {
 	height: 100%;
 	margin: 0 15px;
 	position: relative;
-	width: 150px;
+	width: 75px;
 }
 .bar {
 	bottom: 1px;
@@ -351,16 +351,16 @@ a {
 
 /* Bar Colours */
 .fig0 .top {
-	background: rgba(80, 80, 80, 0.6);
+	background: rgba(54, 144, 54, 0.6);
 }
 .fig0 .left,
 .fig0 .right,
 .fig0 .back,
 .fig0 .front {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, rgba(80, 80, 80, 0.6)), color-stop(1.0, rgba(80, 80, 80, 0.3)));
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, rgba(54, 144, 54, 0.6)), color-stop(1.0, rgba(54, 144, 54, 0.3)));
 }
 .fig0 .bottom {
-	background: rgba(80, 80, 80, 0.3);
+	background: rgba(54, 144, 54, 0.3);
 }
 
 .fig1 .top {
