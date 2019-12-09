@@ -74,7 +74,7 @@ $(document).ready(function() {
 			chartYMax: function() {
 				var chartData = this.chartData();
 				// Round off the value
-				var chartYMax = Math.ceil(Math.max.apply(Math, chartData) / 1000) * 1000;
+				var chartYMax = Math.ceil(Math.max.apply(Math, chartData) / 1000000) * 1000000;
 				return chartYMax;
 			},
 			// Get y-axis data from table cells
@@ -85,7 +85,7 @@ $(document).ready(function() {
 				var yAxisMarkings = 5;						
 				// Add required number of y-axis markings in order from 0 - max
 				for (var i = 0; i < yAxisMarkings; i++) {
-					yLegend.unshift(((chartYMax * i) / (yAxisMarkings - 1)) / 1000);
+					yLegend.unshift(((chartYMax * i) / (yAxisMarkings - 1)) / 1000000);
 				}
 				return yLegend;
 			},
